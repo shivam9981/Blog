@@ -1,0 +1,69 @@
+.container{
+    margin-top: 5em;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .divisio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+/* } */
+.alllables{
+    font-size: 2em;
+}
+.inpdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em;
+}
+.allinput{
+    min-width:50rem;
+    height: 4em;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 1em;
+    font-size: 1em;
+    padding: 0em 1em;
+}
+.btn{
+    width: 30em;
+    height: 3em;
+    border-radius: 3em;
+    font-size: 1.5em;
+    color: black;
+    background-color: beige;
+}
+.btn:hover{
+    background-color: black;
+    color: beige;
+}
+@media only screen and (max-width:980px) {
+    .allinput{
+        min-width: 25rem;
+    }
+    .btn{
+        width: 15em;
+    }
+}
+@media only screen and (max-width:550px) {
+    .allinput{
+        min-width: 15rem;
+    }
+    .btn{
+        width: 10em;
+    }
+}
+@media only screen and (max-width:350px) {
+    .allinput{
+        min-width: 10rem;
+    }
+    .btn{
+        width: 7em;
+    }
+}
